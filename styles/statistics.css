@@ -1,0 +1,186 @@
+.statistics-section {
+	/*height: 3000px;*/
+	/*background-color: lightpink;*/
+	display: flex;
+	flex-direction: column;
+	top: 0;
+	left: 0;
+	right: 0;
+	position: relative;
+	align-items: center;
+}
+
+.yellow-stripe {
+	width: 400px;
+	height: 8px;
+	border: none;
+	content: "";
+	background-color: rgb(247,212,68);
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.statistics-content {
+	/*height: 2992px;*/
+	width: 1230px;
+	margin-top: 8px;
+	display: flex;
+	flex-direction: column;
+	/*background-color: lightblue;*/
+}
+
+.statistics-top {
+	position: static;
+	height: 129px;
+}
+
+.statistics-bottom {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.stats {
+	display: grid;
+	grid-template-columns: 1fr 26px 1fr 26px 1fr 26px 1fr 26px 1fr;
+	margin-bottom: 24px;
+
+}
+
+.stat-elements {
+	display: flex;
+	flex-direction: column;
+	/*border: solid 1px;*/
+	align-items: center;
+
+}
+
+.vl {
+	display: flex;
+	flex-direction: row;
+	border-left: 2px solid rgb(4,92,153);
+  	height: 210px;
+  	margin-left: 13px;
+}
+
+.stat-figures {
+	display: flex;
+	flex-direction: column;
+	top: 0;
+	font-family: Roboto, Arial;
+	font-size: 48px;
+	color: rgb(4,92,153);
+	margin-top: 48px;
+	margin-bottom: 0;
+}
+
+.stat-figure-name {
+	display: inline-block;
+	max-width: 150px;
+	font-family: Roboto, Arial;
+	font-size: 24px;
+	margin-top: 12px
+	margin-bottom: 48px;
+	text-align: center;
+}
+
+.geo-summary {
+	display: grid;
+	grid-template-columns: 234px 0.7fr 1fr;
+	margin-top: 48px;
+	margin-bottom: 48px;
+	/*align-items: center;*/
+}
+
+.geo-chart-container {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+		/*width: 234px;*/
+}
+
+.geo-chart {
+	display: flex;
+	flex: column;
+	width: 100%;
+	object-fit: cover;
+}
+
+.geo-legends {
+	display: flex;	
+	flex-direction: column;
+	max-height: 180px;
+	margin-left: 40px;
+	margin-right: 40px;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+}
+
+.legend-square-red {
+	height: 18px;
+	width: 18px;
+	background-color: #CC3919;
+	margin-right: 15px;
+}
+
+.legend-square-yellow {
+	height: 18px;
+	width: 18px;
+	background-color: #F4A051;
+	margin-right: 15px;
+}
+
+.legend-square-blue {
+	height: 18px;
+	width: 18px;
+	background-color: #0071BD;
+	margin-right: 15px;
+}
+
+.legend-square-green {
+	height: 18px;
+	width: 18px;
+	background-color: #49B868;
+	margin-right: 15px;
+}
+
+.legend-text {
+	display: flex;
+	flex-direction: row;
+}
+
+.country-text {
+	width: 175px;
+	margin-right: 8px;
+}
+
+.stat-summary {
+	display: flex;
+	flex-direction: column;
+	background-image: linear-gradient(to right, rgb(4,92,153), white);
+	height: 180px;
+	align-items: left;
+	padding-top: 8px;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+}
+
+
+.stat-summary-text {
+	font-family: Roboto, Arial;
+	font-size: 24px;
+	color: white;
+	margin-bottom: 8px;
+	margin-left: 34px;
+	font-weight: 500;
+}	
+
+.media-kit {
+	margin-top: 12px;
+	text-align: right;
+	cursor: pointer;
+}

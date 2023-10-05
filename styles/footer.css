@@ -1,0 +1,20 @@
+.footer-section {
+	height: 300px;
+	background-color: #223033;
+	display: flex;
+	flex-direction: column;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: relative;
+	align-items: center;
+}
+
+.demo-content {
+	/*height: 2992px;*/
+	width: 1230px;
+	margin-top: 8px;
+	display: flex;
+	flex-direction: column;
+	/*background-color: lightblue;*/
+}

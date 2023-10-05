@@ -1,0 +1,134 @@
+.marketing-section {
+	/*height: 3000px;*/
+	background-color: rgb(247,249,252);
+	display: flex;
+	flex-direction: column;
+	top: 0;
+	left: 0;
+	right: 0;
+	position: relative;
+	align-items: center;
+}
+
+.yellow-stripe {
+	width: 400px;
+	height: 8px;
+	border: none;
+	content: "";
+	background-color: rgb(247,212,68);
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.marketing-content {
+	/*height: 2992px;*/
+	width: 1230px;
+	margin-top: 8px;
+	display: flex;
+	flex-direction: column;
+}
+
+.marketing-top {
+	position: static;
+	height: 129px;
+}
+
+.marketing-service {
+	/*border: solid 1px;*/
+	display: grid;
+	grid-template-columns: 317px 1fr;
+	background-color: white;
+	box-shadow: 0 2px 2px 2px rgba(0,0,0,0.15);
+	margin-bottom: 32px;
+}
+
+
+.marketing-image-container {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 317px;
+	/*height: 506px;*/
+}
+
+.white-paper-photo {
+	display: flex;
+	flex: column;
+	height: 100%;
+	max-width: 317px;
+	object-fit: cover;
+}
+
+.image-tag-1 {
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-top:	320px;
+	justify-content: center;
+}
+
+.image-tag-2 {
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-top:	360px;
+	justify-content: center;
+}
+
+.image-tag-3	{
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-bottom: 50px;
+	justify-content: center;
+}
+
+.marketing-service-content {
+	padding-left: 46px;
+	padding-right: 46px;
+	display: flex;
+	flex-direction: column;
+	/*border: solid 1px red;*/
+}
+
+.marketing-service-points {
+	display: grid;
+	grid-template-columns: 180px 1fr;
+	margin-bottom: 10px;
+
+}
+
+.pricing-line {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	justify-content: space-between;
+}
+
+.marketing-order-button {
+	width: 160px;
+	height: 36px;
+	border-radius: 18px;
+	border: none;
+	background-color: rgb(4,92,153);
+	font-family: Roboto, Arial;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+
+.marketing-order-button:hover {
+	opacity: 0.7;
+}
+

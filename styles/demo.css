@@ -1,0 +1,38 @@
+.demo-section {
+	/*height: 3000px;*/
+	/*background-color: lightpink;*/
+	display: flex;
+	flex-direction: column;
+	top: 0;
+	left: 0;
+	right: 0;
+	position: relative;
+	align-items: center;
+}
+
+.yellow-stripe {
+	width: 400px;
+	height: 8px;
+	border: none;
+	content: "";
+	background-color: rgb(247,212,68);
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.demo-content {
+	/*height: 2992px;*/
+	width: 1230px;
+	margin-top: 8px;
+	display: flex;
+	flex-direction: column;
+	/*background-color: lightblue;*/
+}
+
+.demo-top {
+	position: static;
+	height: 120px;
+}
